@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #29b394;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  height: 15vh;
+}
+
+.form-card {
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+}
+
+img {
+  width: 50vw;
+}
+
+@media only screen and (max-width: 850px) {
+  img {
+    display: none;
+  }
+}
